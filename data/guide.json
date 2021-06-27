@@ -1,6 +1,48 @@
 {
     "channels": [
-        {"name": "TATA", "number": "69"},
-        {"name": "poo", "number": "900"}
+        {
+            "name": "Bear Grills",
+            "number": "1452"
+        },
+        {
+            "name": "SciFi",
+            "number": "1442"
+        },
+        {
+            "name": "ABC",
+            "number": "1007"
+        },
+        {
+            "name": "CBS",
+            "number": "1005"
+        },
+        {
+            "name": "FOX",
+            "number": "1006"
+        },
+        {
+            "name": "American Test Kitchen",
+            "number": "1003"
+        },
+        {
+            "name": "PBS Digital Studios",
+            "number": "1406"
+        },
+        {
+            "name": "This Old House",
+            "number": "1213"
+        },
+        {
+            "name": "Vice",
+            "number": "1086"
+        },
+        {
+            "name": "Bob Ross",
+            "number": "1069"
+        },
+        {
+            "name": "Hallmark",
+            "number": "1455"
+        }
     ]
 }
