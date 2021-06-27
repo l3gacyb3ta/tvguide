@@ -10,7 +10,6 @@ export default function Home() {
       <h1 className={styles.heading}>TV Guide</h1>
       {
         Object.entries(guide.channels).map(([key, channel]) => {
-          console.log(channel)
           return (
             <div className="block fixed">
               <h2>{channel.number + ' - ' + channel.name}</h2>
