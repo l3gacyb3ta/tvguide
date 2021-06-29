@@ -21,7 +21,7 @@ function Home({ query }) {
       <div className={styles.center}>
         <div className="wrapper block fixed">
           <form action="/" method="get" className={styles.forminline}>
-            <input type="text" name="search" class="block fixed" />
+            <input type="text" name="search" className="block fixed" />
             <button className="block round accent " type="submit">Search!</button>
           </form>
         </div>
