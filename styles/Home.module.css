@@ -5,3 +5,19 @@
 .heading {
   text-align: center;
 }
+
+/* https://www.w3schools.com/howto/howto_css_center_button.asp */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5%;
+}
+
+/* https://www.w3schools.com/howto/howto_css_inline_form.asp */
+
+.forminline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
