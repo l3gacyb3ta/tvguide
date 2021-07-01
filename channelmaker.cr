@@ -1,3 +1,5 @@
+require "json"
+
 puts "This will overwrite data/guide.json, so if you don't want to do that, ^C now."
 
 # The basic data structure
@@ -21,7 +23,7 @@ while go
   guide["channels"].push({"name" => name, "number" => num})
 end
 
-#write out the json
-File.write "data/guide.json", guide.to_json
+# write out the json
+File.write "data/guidegen.json", guide.to_json
 
 puts "Channels written to `data/guide.json`"

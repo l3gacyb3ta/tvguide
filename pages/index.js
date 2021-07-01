@@ -3,6 +3,7 @@ import guide from '../data/guide.json'
 import styles from '../styles/Home.module.css'
 
 function filter_data(event) {
+  // `this` is the string were looking for
   if (this != undefined) {
     return event.name.toLowerCase().includes(this.toLowerCase());
   }
